@@ -1,0 +1,9 @@
+{
+	"type": "origins:night_vision",
+    "strength": 1.0,
+    "condition": {
+        "type": "origins:exists"
+    },
+	"name": "Night Vision",
+	"description": "You can see in the dark"
+}

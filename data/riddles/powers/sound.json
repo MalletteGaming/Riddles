@@ -1,0 +1,64 @@
+{
+	"type": "origins:multiple",
+
+    "warden": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.warden.emerge",
+        "volume": 1.5
+    },
+    "interval": 4000,
+    "condition": {
+        "type": "origins:exists"
+    }
+    },
+
+    "creeper": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.creeper.primed",
+        "volume": 3.5
+    },
+    "interval": 3500,
+    "condition": {
+        "type": "origins:exists"
+    }
+    },"enderman": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.enderman.ambient",
+        "volume": 1.5
+    },
+    "interval": 6500,
+    "condition": {
+        "type": "origins:exists"
+    }
+    },"zombie": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.zombie.ambient",
+        "volume": 1.7
+    },
+    "interval": 2500,
+    "condition": {
+        "type": "origins:exists"
+    }
+    },"phantom": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.phantom.ambient",
+        "volume": 2.5
+    },
+    "interval": 2700,
+    "condition": {
+        "type": "origins:exists"
+    }
+    },
+	"name": "Paranoid of death",
+	"description": "???"
+}

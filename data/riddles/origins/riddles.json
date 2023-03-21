@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"riddles:creepers",
+		"riddles:eat_zombie",
+		"riddles:night_sight",
+		"riddles:sound"
+	],
+	"icon": "minecraft:spyglass",
+	"order": 10,
+	"impact": 0,
+	"name": "RIDDLES",
+	"description": "Riddles inspired origin"
+}

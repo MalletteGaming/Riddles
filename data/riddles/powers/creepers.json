@@ -1,0 +1,13 @@
+{
+	"type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+    "command": "execute at @s as @e[distance=..3,type=minecraft:creeper] run kill @s"
+    },
+    "interval": 15,
+    "condition": {
+        "type": "origins:exists"
+    },
+	"name": "Creeper Proof",
+	"description": "Creepers Shouldn't be able to kill you"
+}
